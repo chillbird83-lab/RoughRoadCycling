@@ -115,10 +115,39 @@
         }
       ]
     }
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Product",
+        "name": "Apidura Racing Series Aero Bags",
+        "image": "https://roughroadcycling.com/images/blog/aero-bikepacking-bags/aero-bikepacking-bags-loaded-rig.webp",
+        "brand": {
+          "@type": "Brand",
+          "name": "Apidura"
+        }
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "9.5",
+        "bestRating": "10"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Tom Bata"
+      }
+    }
     </script>
 </head>
 <body>
     <div class="scroll-text-bg" aria-hidden="true">AERO LOADOUT // RACE-READY //</div>
+
+    <!-- Fixed Grit Score -->
+    <div style="position: fixed; top: 150px; right: 20px; border: 2px solid var(--color-border); background: var(--color-surface); padding: var(--space-sm); z-index: 100; text-align: center; box-shadow: 4px 4px 0 #000;">
+        <span style="display: block; font-size: 0.7rem; letter-spacing: 1px; color: var(--color-text-muted); text-transform: uppercase; font-weight: 700; margin-bottom: 5px;">Grit Score</span>
+        <span style="display: block; font-family: var(--font-heading); font-size: 1.8rem; color: var(--color-accent); font-weight: 900;">9.5<span style="font-size: 1rem; color: var(--color-text-muted);">/10</span></span>
+    </div>
 
     <header class="site-header">
         <div class="container nav-container">
@@ -131,6 +160,7 @@
                     <li><a href="../../guides.html">Guides</a></li>
                     <li><a href="../../routes.html">Routes</a></li>
                     <li><a href="../index.html" class="active">Blog</a></li>
+                    <li><a href="../../about.html">About</a></li>
                 </ul>
             </nav>
         </div>
@@ -194,6 +224,46 @@
                 <p style="color: var(--color-text-muted); margin-top: var(--space-sm); margin-bottom: var(--space-sm); font-weight: 500;">We ran the same gravel bike across 1,500+ miles, swapping the full bag setup every 300–400 miles. Same loadout each round — sleeping system, food, water, tools, electronics, layers — measured by weight and volume to keep the comparison clean.</p>
                 <p style="color: var(--color-text-muted); margin-bottom: var(--space-sm); font-weight: 500;">Conditions were brutal on purpose: prairie crosswinds, three multi-day rainstorms, an Unbound-style washboard sector, two cold-front nights below freezing, and one full mud day. We graded each system on six things: aerodynamics, stability under load, waterproofing, mounting speed, capacity, and how well it survived the abuse.</p>
                 <p style="color: var(--color-text-muted); margin-bottom: var(--space-lg); font-weight: 500;">We're not paid by any of these brands. No affiliate links. The bags were bought, borrowed, or used out of pocket. If you want to see the bike we mounted them on, read our <a href="../titanium-vs-carbon-gravel-bike/" style="color: var(--color-text-main); text-decoration: underline;">titanium vs carbon gravel bike comparison</a>.</p>
+
+                <h2 style="font-size: 2rem; border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; color: var(--color-accent); margin-top: var(--space-lg);">Raw Data //</h2>
+                <div style="overflow-x: auto; margin-top: var(--space-md); margin-bottom: var(--space-lg); border: 2px solid var(--color-border); background: #111;">
+                    <table style="width: 100%; border-collapse: collapse; text-align: left; min-width: 600px;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid var(--color-border);">
+                                <th style="padding: var(--space-md); color: var(--color-text-muted); font-weight: 900; letter-spacing: 2px; text-transform: uppercase;">Brand</th>
+                                <th style="padding: var(--space-md); color: var(--color-text-muted); font-weight: 900; letter-spacing: 2px; text-transform: uppercase;">Weight (kg)</th>
+                                <th style="padding: var(--space-md); color: var(--color-text-muted); font-weight: 900; letter-spacing: 2px; text-transform: uppercase;">Capacity (L)</th>
+                                <th style="padding: var(--space-md); color: var(--color-text-muted); font-weight: 900; letter-spacing: 2px; text-transform: uppercase;">Price ($)</th>
+                            </tr>
+                        </thead>
+                        <tbody style="font-family: var(--font-body); font-weight: 500;">
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: var(--space-md); color: var(--color-accent); font-weight: 700;">Apidura Racing</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">1.10</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">22.5</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">~450</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: var(--space-md); color: var(--color-text-main); font-weight: 700;">Revelate Designs</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">1.45</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">38.0</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">~420</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #333;">
+                                <td style="padding: var(--space-md); color: var(--color-text-main); font-weight: 700;">Tailfin AeroPack</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">1.25</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">20.0</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">~500</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: var(--space-md); color: var(--color-text-main); font-weight: 700;">Restrap</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">1.35</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">28.0</td>
+                                <td style="padding: var(--space-md); color: var(--color-text-main);">~320</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
                 <h2 style="font-size: 2rem; border-bottom: 2px solid var(--color-border); padding-bottom: 0.5rem; color: var(--color-accent); margin-top: var(--space-lg);">The Loadout // Three-Bag Protocol</h2>
                 <figure style="margin: var(--space-md) 0; border: 2px solid var(--color-border); background: #000;">
@@ -294,23 +364,23 @@
                 <p style="color: var(--color-text-muted); margin-bottom: var(--space-md); font-weight: 500;">No single best bikepacking bag exists — only the best bag for the ride. Match the system to the event. Race ultra: Apidura. Expedition: Revelate. Daily swap: Tailfin. Starting out: Restrap. Buy once. Buy right. Stop thinking about bags. Start thinking about the ride.</p>
                 <p style="color: var(--color-text-muted); margin-bottom: var(--space-lg); font-weight: 500;">Next steps: nail down your <a href="../../guides.html" style="color: var(--color-text-main); text-decoration: underline;">Bikepacking 101 loadout</a>, pick the right frame for the abuse (see our <a href="../titanium-vs-carbon-gravel-bike/" style="color: var(--color-text-main); text-decoration: underline;">titanium vs carbon comparison</a>), then point the wheels at <a href="../../routes.html" style="color: var(--color-text-main); text-decoration: underline;">The Neon Divide</a>.</p>
 
+                <div style="margin-top: var(--space-xl); margin-bottom: var(--space-lg); border: 2px solid var(--color-border); padding: var(--space-lg); background: #111;">
+                    <h3 class="brutalist-title" style="font-size: 1.5rem; margin-bottom: var(--space-xs); color: var(--color-text-main);">The Briefing</h3>
+                    <p style="color: var(--color-text-muted); margin-bottom: var(--space-md); font-weight: 500;">Get the Protocol. No fluff. Just Intel.</p>
+                    <form style="display: flex; gap: var(--space-sm); flex-wrap: wrap;" onsubmit="event.preventDefault(); alert('Subscribed to the protocol.');">
+                        <input type="email" placeholder="ENTER EMAIL" required style="flex-grow: 1; padding: var(--space-sm); border: 2px solid var(--color-border); background: transparent; color: var(--color-text-main); font-family: var(--font-heading); font-size: 1rem; text-transform: uppercase;">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+
                 <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-top: var(--space-md);">
-                    <a href="../../reviews.html" class="btn btn-primary">More Gear Reviews</a>
-                    <a href="../index.html" class="btn btn-outline">Back to Field Journal</a>
+                    <a href="../../reviews.html" class="btn btn-primary">View All High-Grit Gear Reviews</a>
+                    <a href="../../routes.html" class="btn btn-outline">Explore The Neon Divide Route</a>
                 </div>
 
             </div>
         </article>
     </section>
-
-    <div class="marquee-container">
-        <div class="marquee-content">
-            <span>// NO EXCUSES // MAXIMUM GRIT // ROUGH ROAD CYCLING //</span>
-            <span>// NO EXCUSES // MAXIMUM GRIT // ROUGH ROAD CYCLING //</span>
-            <span>// NO EXCUSES // MAXIMUM GRIT // ROUGH ROAD CYCLING //</span>
-            <span>// NO EXCUSES // MAXIMUM GRIT // ROUGH ROAD CYCLING //</span>
-        </div>
-    </div>
 
     <footer class="site-footer">
         <div class="container footer-bottom">
